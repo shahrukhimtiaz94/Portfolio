@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="../assets/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./gallery.html"> Gallery</a></li>
+                <li><a href="./form.html">Form</a></li>
+            </ul>
+        </header>
+        <h1>Form</h1>
+        <form>
+            <p>
+            <label for="Name"> Name:  </label>
+            <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required>
+        </p>
+        <p>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Enter Your Email" required>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="pasword" id="password" required placeholder="Enter your Password">
+        </p>
+        <p>
+            <label for="gender">Select Gender</label>
+            <input type="radio" name="Gender"  value="Male" id="male"> <Label for="male">Male</Label>
+            <input type="radio" name="Gender"  Value="Female" id="Female"> <label for="Female"> Female</label>
+
+        </p>
+        <p>
+            <label for="Course">Select Course</label>
+            <input type="checkbox" name="course" id="web" > <label for="web">Web And App</label>  
+            <input type="checkbox" name="course" id="Python" > <label for="Python">Python</label>  
+        </p>
+        <p>
+            <label for="timing">Select Timing</label>
+            <select name="timing" id="timing">
+                <option value="1 to 3">1pm to 3pm</option>
+                <option value="3 to 7">3pm to 7pm</option>
+                <option value="5 to 7"> 5pm To 7pm</option>
+                <option value="7 to 9">7pm To 9pm</option>
+            </select>
+        </p>
+        <input type="submit" name="submit" id="submit">
+        </form>
+
+
+        </div>
+         </body>
+</html>

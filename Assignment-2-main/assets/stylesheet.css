@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+header ul li{
+    display: inline;
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:22px;
+}
+header h1 {
+    margin: 0;
+}
+.contact-info {
+    
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+section {
+    margin-bottom: 20px;
+}
+section h2 {
+   
+    padding-bottom: 5px;
+}
+.skills ul, .experience ul, .education ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills ul li, .experience ul li, .education ul li {
+    margin-bottom: 10px;
+}
+.skills ul li {
+    display: inline-block;
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* gallery css */
+.gallery{
+    text-align: center;
+    font-size: 33px;
+}
+.gallery ul li{
+    display: inline;
+   
+}
+.gallery ul li img{
+      
+    width: 24%;
+}
